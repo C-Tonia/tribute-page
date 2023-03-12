@@ -1,0 +1,107 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Main styling */
+body,
+html {
+  line-height: 1.7em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fafafa;
+}
+a {
+  text-decoration: none;
+  color: #a5ffc9;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+/* Reusable design */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#header h1,
+#awards h3,
+#achievment h2 {
+  text-align: center;
+  background: rgba(250, 250, 250, 0.5);
+  padding: 20px;
+}
+/* The Header */
+#header {
+  padding-top: 30px;
+}
+
+#header p {
+  text-align: justify;
+}
+.header-content {
+  background: rgba(215, 208, 205, 0.3);
+  padding: 30px 50px;
+  border-radius: 30px;
+  height: 450px;
+}
+.info-quote {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+.info-img img {
+  display: block;
+  /* height: 100%; */
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+.info-img {
+  float: left;
+  width: 50%;
+}
+/* ACHIEVMENT */
+#achievment {
+  margin: 10px 0;
+}
+#achievment p {
+  padding: 0 40px 5px 40px;
+}
+/* AWARDS SECTION */
+.awards {
+  float: left;
+  margin: 10px;
+  width: 30%;
+  padding: 50px;
+  text-align: center;
+  background: rgba(245, 255, 250, 0.5);
+  border-radius: 20px;
+}
+
+.awards img {
+  width: 80%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+.awards .booker-prize {
+  height: 200px;
+}
+/* FOOTER SECTION */
+.main-footer {
+  margin-top: 20px;
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
